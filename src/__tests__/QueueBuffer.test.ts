@@ -24,13 +24,13 @@ test('Pushing', () => {
   buffer.push('b')
   check('ab')
 
-  buffer.push('cd')
+  buffer.push(Buffer.from('cd'))
   check('abcd')
 
   buffer.push('e')
   check('abcde')
 
-  buffer.push('fgh')
+  buffer.push(Buffer.from('fgh'))
   check('defgh')
 
   buffer.push('ijklm')
