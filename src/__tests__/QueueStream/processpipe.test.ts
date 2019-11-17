@@ -104,6 +104,6 @@ describe('Output intensive - Run with --logHeapUsage to check memory test', () =
         done()
       })
     },
-    30 * 1000
+    40 * 1000
   )
 })
